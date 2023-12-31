@@ -1,4 +1,5 @@
 #include "GUI.h"
+#include "ِActionPlayBy.h"
 
 //constructor make necessary initializations
 GUI::GUI()
@@ -124,7 +125,13 @@ ActionType GUI::MapInputToActionType() const
 		//[2] User clicks on the drawing area
 		if (y >= UI.ToolBarHeight && y < UI.height - UI.StatusBarHeight)
 		{
-			return DRAWING_AREA;
+			switch (ActionPlayBy::type)
+			{
+			case ACTION_PLAY_TYPE: return ACTION_PLAY_TYPE;
+			case ACTION_PLAY_FILL: return ACTION_PLAY_FILL;
+			case ACTION_PLAY_TYPEFILL: return ACTION_PLAY_TYPEFILL;
+			default: return EMPTY;
+			}
 		}
 		//[3] User clicks on the status bar
 		return STATUS;	//just for now. This should be updated

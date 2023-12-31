@@ -109,7 +109,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>D:\DS project\New folder\Figures;D:\DS project\New folder\Actions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\DS project\New folder - Copy - Copy\Actions;D:\DS project\New folder - Copy - Copy\Figures;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -132,8 +132,11 @@
   <ItemGroup>
     <ClCompile Include="ActionAddEllipse.cpp" />
     <ClCompile Include="ActionAddHexagon.cpp" />
+    <ClCompile Include="Actions\ActionPlayByT.cpp" />
     <ClCompile Include="Actions\ActionPlayByType.cpp" />
+    <ClCompile Include="Actions\ActionPlayReset.cpp" />
     <ClCompile Include="Actions\ActionSelect.cpp" />
+    <ClCompile Include="Actions\ِActionPlayBy.cpp" />
     <ClCompile Include="CEllipse.cpp" />
     <ClCompile Include="CFigure.cpp" />
     <ClCompile Include="CHexagon.cpp" />
@@ -181,8 +184,11 @@
   <ItemGroup>
     <ClInclude Include="ActionAddEllipse.h" />
     <ClInclude Include="ActionAddHexagon.h" />
+    <ClInclude Include="Actions\ActionPlayByT.h" />
     <ClInclude Include="Actions\ActionPlayByType.h" />
+    <ClInclude Include="Actions\ActionPlayReset.h" />
     <ClInclude Include="Actions\ActionSelect.h" />
+    <ClInclude Include="Actions\ِActionPlayBy.h" />
     <ClInclude Include="CEllipse.h" />
     <ClInclude Include="CHexagon.h" />
     <ClInclude Include="CMUgraphicsLib\auxil.h" />

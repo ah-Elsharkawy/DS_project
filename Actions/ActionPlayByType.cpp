@@ -1,6 +1,7 @@
 #include "ActionPlayByType.h"
 #include "../ApplicationManager.h"
 #include "../GUI/GUI.h"
+
 ActionPlayByType::ActionPlayByType(ApplicationManager* pApp) :Action(pApp)
 {
 	correct = wrong = 0;

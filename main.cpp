@@ -1,5 +1,12 @@
 #include "ApplicationManager.h"
 #include "GUI\GUI.h"
+#include "ِActionPlayBy.h"
+
+
+int ActionPlayBy::correct = 0;
+int ActionPlayBy::wrong = 0;
+string ActionPlayBy::inGameType = "";
+ActionType ActionPlayBy::type = EMPTY;
 
 int main()
 {

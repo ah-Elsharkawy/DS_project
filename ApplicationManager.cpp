@@ -4,6 +4,8 @@
 #include "ActionAddHexagon.h"
 #include "ActionSelect.h"
 #include "ActionPlayByType.h"
+#include "ActionPlayByT.h"
+#include "ActionPlayReset.h"
 #include <iostream>
 
 
@@ -89,7 +91,7 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 
 	case ACTION_PLAY_TYPE:
 		//pGUI->PrintMessage("ACTION_PLAY_TYPE");
-		newAct = new ActionPlayByType(this);
+		newAct = new ActionPlayByT(this);
 		break;
 
 	case ACTION_PLAY_FILL:
@@ -101,7 +103,7 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 		break;
 
 	case ACTION_PLAY_RESET:
-		pGUI->ClearStatusBar();
+		newAct = new ActionPlayReset(this);
 		break;
 
 	}

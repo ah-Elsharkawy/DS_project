@@ -160,6 +160,15 @@
     <ClCompile Include="ActionAddHexagon.cpp">
       <Filter>Action Classes</Filter>
     </ClCompile>
+    <ClCompile Include="Actions\ActionPlayByT.cpp">
+      <Filter>Action Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions\ِActionPlayBy.cpp">
+      <Filter>Action Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions\ActionPlayReset.cpp">
+      <Filter>Action Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMUgraphicsLib\auxil.h">
@@ -260,6 +269,15 @@
       <Filter>Figures Classes</Filter>
     </ClInclude>
     <ClInclude Include="ActionAddHexagon.h">
+      <Filter>Action Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\ِActionPlayBy.h">
+      <Filter>Action Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\ActionPlayByT.h">
+      <Filter>Action Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\ActionPlayReset.h">
       <Filter>Action Classes</Filter>
     </ClInclude>
   </ItemGroup>
